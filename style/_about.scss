@@ -1,0 +1,21 @@
+.about__content {
+  padding: 0 50px;
+  color: #292f36;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about__content {
+    padding: 0 30px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .about__content {
+    padding: 0 20px;
+    font-size: 16px;
+  }
+}
